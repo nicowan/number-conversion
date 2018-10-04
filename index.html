@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Exercice de conversion</title>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Convertissez les nombres dans les autres bases</h1>
+    <fieldset>
+        <legend>Création d'une série</legend>
+        <p>Nombre de conversion : <input id="howmany" value="4"></p>
+        <p>
+            <input type="button" value="Nouvelle série" onclick="newExercice()">
+        </p>
+        <p>
+            Afficher ou cacher les solutions
+            <input type="checkbox" value="Résultat" onchange="showExercice(event)">
+        </p>
+        <p>
+            <input type="button" value="Imprimer" onclick="window.print()">
+        </p>
+    </fieldset>
+    <br>
+    <div id="exercice">
+    </div>
+
+    <p>Il est évident que les calculs sont réalisés sans calculatrice !</p>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body {
+    width: 800px;
+    border: 1px dotted black;
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td,
+th {
+    border: 1px solid black;
+    width: 150px;
+    height: 2.5em;
+}
+
+th {
+    background-color: #ddd;
+}
+
+sub {
+    font-size: 0.75em;
+}
+
+.fixed {
+    font-weight: bold;
+    color: black;
+}
+
+.answer {
+    font-style: italic;
+    color: #aaa;
+}
+
+@media print  {
+    fieldset {
+        display: none;
+    }
+}
